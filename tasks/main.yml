@@ -5,8 +5,7 @@
   package:
     name: "{{ item }}"
     state: present
-  with_itmes:
-    - "{{ dockerpy_required_packages }}"
+  with_items: "{{ dockerpy_required_packages }}"
   tags:
     - install
     - docker-py
