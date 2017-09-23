@@ -5,4 +5,4 @@ dockerpy_required_packages:
   - python
   - python-pip
 
-dockerpy_version: ""
+dockerpy_version: "latest"
