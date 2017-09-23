@@ -1,15 +1,6 @@
 ---
 # tasks file for ansible_role_docker-py
 
-- name: docker-py | Install required packages
-  package:
-    name: "{{ item }}"
-    state: present
-  with_items: "{{ dockerpy_required_packages }}"
-  tags:
-    - install
-    - docker-py
-
 - name: docker-py | Install docker-py using Python pip
   pip:
     name: docker-py
