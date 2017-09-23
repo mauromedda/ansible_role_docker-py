@@ -1,0 +1,8 @@
+---
+# defaults file for ansible_role_docker-py
+
+dockerpy_required_packages: 
+  - python
+  - python-pip
+
+dockerpy_version: ""
